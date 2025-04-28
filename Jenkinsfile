@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "damarcusbrown300/flask-sports-odds"
+        DOCKER_IMAGE = "damarcusbrown/flask-sports-odds"
     }
 
     stages {
